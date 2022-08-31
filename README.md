@@ -1,3 +1,7 @@
 # hadoop-
-分析主播的开播数据，取出开播top10的数据
-完成代码书编写打包到Hadoop运行
+该项目为大数据项目
+通过对主播开播数据的分析
+得出top10的头部主播开播数据
+
+主要技术mapreduce  hadoop  hdfs 
+mapreduce 对数据进行读取，清洗

@@ -32,7 +32,7 @@ public class DataCleanJob {
     public static void main(String[] args) {
         try {
             if(args.length!=2){
-                //  如果传递的参数不够，程序直接退出
+                //  如果传递的参数不够，程序直接退出，一个是输入目录，一个是输出目录
                 System.exit(100);
             }
             //  job需要的配置参数

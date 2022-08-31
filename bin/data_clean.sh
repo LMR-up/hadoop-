@@ -36,7 +36,7 @@ dataClean.DataCleanJob \
 ${cleanjob_input} \
 ${cleanjob_output}
 
-# 判断数据清洗任务是否执行成功
+# 判断数据清洗任务是否执行成功 echo $? 可以获取上一条命令的执行结果
 hdfs dfs -ls ${cleanjob_output}/_SUCCESS
 if [ "$?" = "0" ]
 then

@@ -43,7 +43,7 @@ public class VideoInfoJobTop10 {
             //  创建一个job
             Job job = Job.getInstance(conf);
 
-            //  注意：这一行必须设置，否则在集群中执行的是找不到WordCountJob这个类
+            //  注意：这一行必须设置，否则在集群中执行的是找不到VideoInfoJobTop10这个类
             job.setJarByClass(VideoInfoJobTop10.class);
 
             //  指定输入路径(可以是文件，也可以是目录)
